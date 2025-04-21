@@ -1,0 +1,45 @@
+# Arquivos de ambiente
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Arquivos Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.temp
+*.swp
+.DS_Store
+
+# Diretórios de distribuição / empacotamento
+dist/
+build/
+*.egg-info/
+
+# Arquivos específicos deste projeto
+# Ignorar todos os arquivos CSV (dados de amostra e resultados)
+*.csv
+
+# IDEs e editores
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject 
